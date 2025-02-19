@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.lang.model.element.NestingKind;
-
 public class Einlesen2 {
 
 	public static void main(String[] args) {
