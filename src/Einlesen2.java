@@ -6,6 +6,7 @@ public class Einlesen2 {
 		// TODO Auto-generated method stub
 
 		Scanner scan = new Scanner(System.in);
+		scan.close(); //Scanner Objekt (Variable) nach Benutzung schließen um Tastatur wieder frei zu geben.
 		
 		//Aufgabe
 		/*Erstelle erneut ein objekt der Klasse Scanner
@@ -24,6 +25,9 @@ public class Einlesen2 {
 		String name = scan1.next();
 		
 		System.out.println("Du heißt " + name + " und bist " + alter + " Jahre alt.");
+		
+		scan1.close();
+		
 		
 	}
 
